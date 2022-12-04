@@ -8,7 +8,7 @@ function ContactPage() {
 
   return (
     <div className="pt-0 sm:pt-16">
-      <form className="rounded-lg shadow-lg flex flex-col w-12/12 px-8 py-8 bg-gray-900 sm:w-9/12 sm:m-auto">
+      <form name="contact" method="POST" data-netlify="true" className="rounded-lg shadow-lg flex flex-col w-12/12 px-8 py-8 bg-gray-900 sm:w-9/12 sm:m-auto">
         <h1 className="text-2xl font-bold text-gray-50">Send a message</h1>
 
         <label for="fullname" className="text-gray-50 font-light mt-8">Full Name<span className="text-red-500">*</span></label>
@@ -44,7 +44,7 @@ function ContactPage() {
         </textarea> 
 
         <div className="flex flex-row items-center justify-end">
-          <button className="px-10 mt-8 py-2 bg-[#130F49] text-white font-light rounded-md text-lg flex flex-row items-center">
+          <button type="submit" className="px-10 mt-8 py-2 bg-[#130F49] text-white font-light rounded-md text-lg flex flex-row items-center">
             Send
           </button>
         </div>

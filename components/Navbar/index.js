@@ -21,7 +21,7 @@ function Navbar () {
             xmlns="http://www.w3.ord/2000/svg"
           >
             <path
-              strokeLinkecap="round"
+              strokeLineCap="round"
               strokeLinejoin="round"
               strokeWidth={ 2 }
               d="M4 6h16M4 12h16M4 18h16"

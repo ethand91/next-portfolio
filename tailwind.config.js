@@ -1,7 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = { 
-  content: [], 
-  purge: [
+  content: [ 
     './pages/**/*.{js,jsx}',
     './components/**/*.{js,jsx}'
   ],  

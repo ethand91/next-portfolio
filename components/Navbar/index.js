@@ -24,7 +24,7 @@ function Navbar () {
             xmlns="http://www.w3.ord/2000/svg"
           >
             <path
-              strokeLineCap="round"
+              strokeLinecap="round"
               strokeLinejoin="round"
               strokeWidth={ 2 }
               d="M4 6h16M4 12h16M4 18h16"
@@ -42,7 +42,7 @@ function Navbar () {
                 <NavItem link="/experience" title="Experience" />
               </li>
               <li>
-                <NavItem link="https://dev.to/ethand91" title="Blog" />
+                <NavItem link="/blog" title="Blog" />
               </li>
               <li>
                 <NavItem link="/about" title="About" />
@@ -81,7 +81,7 @@ function Navbar () {
           <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto">
             <NavItem link="/" title="Home" />
             <NavItem link="/experience" title="Experience" />
-            <NavItem link="https://dev.to/ethand91" title="Blog" />
+            <NavItem link="/blog" title="Blog" />
             <NavItem link="/about" title="About" />
             <NavItem link="/contact" title="Contact" />
             

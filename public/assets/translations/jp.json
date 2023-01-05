@@ -1,0 +1,12 @@
+{
+  "about.intro": "はじめまして、イーサンと申します。日本に住んでいるイギリス人です。",
+  "about.description1": "１０＋年、主に開発のバックエンドの仕事をしてました。Android/iOSアプリ開発の経験もあり、システムの保守や管理の経験もあります。WebRTCの技術を利用し、生配信システムをゼロから開発したこともあります。",
+  "about.description2": "最近はGStreamerやAndroid Composeやフロントエンド開発を勉強しています、サイバーセキュリティにも興味があります。",
+  "about.description3": "仕事をしていないときはキントレや運動をしています、サイドでいろんなプロジェクトもやっています。",
+  "about.description4": "ブログなどで他の開発者に教えたりしています。",
+  "link.home": "ホーム",
+  "link.experience": "経験",
+  "link.blog": "ブログ",
+  "link.about": "私について",
+  "link.contact": "連絡"
+}

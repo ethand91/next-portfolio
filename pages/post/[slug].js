@@ -30,7 +30,6 @@ export async function getStaticProps({ params: { slug } }) {
   try {
     const fileName = fs.readFileSync(`public/posts/${slug}.md`, 'utf-8');
     const { data: frontmatter, content } = matter(fileName);
-    console.log('props');
 
     return {
       props: {
@@ -48,7 +47,6 @@ export async function getStaticProps({ params: { slug } }) {
 };
 
 function PostPage({ frontmatter, content }) {
-  console.log('slug', frontmatter);
   return (
     <div className="prose mx-auto mt-8">
       <h1>{ frontmatter.title }</h1>

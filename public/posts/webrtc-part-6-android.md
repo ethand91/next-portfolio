@@ -1,8 +1,8 @@
 ---
-title: "Using Emailjs To Send Emails From The Frontend"
-metaTitle: "Using Emailjs To Send Emails From The Frontend"
-metaDesc: "Use Emailjs to send emails from the frontend"
-socialImage: assets/images/webrtc.jpg
+title: "WebRTC For Beginners - Part 6 Android"
+metaTitle: "WebRTC For Beginners - Part 6 Android"
+metaDesc: "WebRTC For Beginners - Part 6 Android"
+socialImage: assets/images/webrtc.jpeg
 date: "2022-12-20"
 tags:
 	- webrtc

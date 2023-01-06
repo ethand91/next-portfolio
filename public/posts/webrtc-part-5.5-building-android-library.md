@@ -2,7 +2,7 @@
 title: "WebRTC For Beginners - Part 5.5: Building the WebRTC Android Library"
 metaTitle: "WebRTC For Beginners - Part 5.5: Building the WebRTC Android Library"
 metaDesc: "WebRTC For Beginners - Part 5.5: Building the WebRTC Android Library"
-socialImage: assets/images/webrtc.jpeg
+socialImage: assets/images/webrtc.jpg
 date: "2022-12-26"
 tags:
 	- webrtc

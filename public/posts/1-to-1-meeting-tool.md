@@ -2,7 +2,7 @@
 title: "I Created A Simple 1 To 1 Meeting Tool"
 metaTitle: "I Created A Simple 1 To 1 Meeting Tool"
 metaDesc: "I Created A Simple 1 To 1 Meeting Tool"
-socialImage: assets/images/webrtc.jpeg
+socialImage: assets/images/webrtc.jpg
 date: "2022-07-31"
 tags:
 	- react

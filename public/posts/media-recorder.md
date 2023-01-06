@@ -2,7 +2,7 @@
 title: "MediaRecorder API Tutorial"
 metaTitle: "MediaRecorder API Tutorial"
 metaDesc: "MediaRecorder API Tutorial"
-socialImage: assets/images/webrtc.jpeg
+socialImage: assets/images/webrtc.jpg
 date: "2022-03-16"
 tags:
 	- webrtc

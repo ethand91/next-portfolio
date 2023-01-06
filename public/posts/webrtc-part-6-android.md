@@ -2,7 +2,7 @@
 title: "WebRTC For Beginners - Part 6 Android"
 metaTitle: "WebRTC For Beginners - Part 6 Android"
 metaDesc: "WebRTC For Beginners - Part 6 Android"
-socialImage: assets/images/webrtc.jpeg
+socialImage: assets/images/webrtc.jpg
 date: "2022-12-20"
 tags:
 	- webrtc

@@ -1,19 +1,26 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import { useRouter } from 'next/router';
 import styles from '../styles/Home.module.css'
 
+import homeTranslations from './../public/assets/translations/home.json';
+
 export default function Home() {
+  const { locale } = useRouter();
+
+  const homeItems = homeTranslations.home.filter(item => item.locale === locale);
+
   return (
     <div className={styles.container}>
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to my Portfolio
+          { homeItems[0].title }
         </h1>
 
         <p className={styles.description}>
-          Hello! My name is Ethan, I am a backend/media developer based in Japan. 😃 <br/>
-          I am currently learning frontend development to become a fullstack developer. <br />
-          If you would like to know more visit the about page, I have a lot of experience with live streaming and media solutions so if you have a project in mind feel free to contact me. ☺️
+          { homeItems[0].description1 } <br />
+          { homeItems[0].description2 } <br />
+          { homeItems[0].description3 } <br />
         </p>
       </main>
     </div>

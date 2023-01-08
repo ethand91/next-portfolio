@@ -1,11 +1,16 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import { useRouter } from 'next/router';
 import { useState } from 'react';
 
 import NavItem from './NavItem';
+import navTranslations from './../../public/assets/translations/navigation.json';
 
 function Navbar () {
-  const [navbar, setNavbar] = useState(false);
+  const [ navbar, setNavbar ] = useState(false);
+  const { locale, locales, asPath } = useRouter(); 
+
+  const navigationItems = navTranslations.navigation.filter(item => item.locale === locale);
 
   return (
     <>
@@ -36,19 +41,19 @@ function Navbar () {
           navbar && 
             <ul className="items-center justify-center space-y-4 md:flex w-full lg:inline-flex lg:flex-grow lg:w-auto">
               <li>
-                <NavItem link="/" title="Home" />
+                <NavItem link="/" title={ navigationItems[0].home } />
               </li>
               <li>
-                <NavItem link="/experience" title="Experience" />
+                <NavItem link="/experience" title={ navigationItems[0].experience } />
               </li>
               <li>
-                <NavItem link="/blog" title="Blog" />
+                <NavItem link="/blog" title={ navigationItems[0].blog } />
               </li>
               <li>
-                <NavItem link="/about" title="About" />
+                <NavItem link="/about" title={ navigationItems[0].about } />
               </li>
               <li>
-                <NavItem link="/contact" title="Contact" />
+                <NavItem link="/contact" title={ navigationItems[0].contact } />
               </li>
               
               <li>
@@ -79,11 +84,11 @@ function Navbar () {
 
         <div className="hidden w-full lg:inline-flex lg:flex-grow lg:w-auto">
           <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto">
-            <NavItem link="/" title="Home" />
-            <NavItem link="/experience" title="Experience" />
-            <NavItem link="/blog" title="Blog" />
-            <NavItem link="/about" title="About" />
-            <NavItem link="/contact" title="Contact" />
+            <NavItem link="/" title={ navigationItems[0].home } />
+            <NavItem link="/experience" title={ navigationItems[0].experience } />
+            <NavItem link="/blog" title={ navigationItems[0].blog } />
+            <NavItem link="/about" title={ navigationItems[0].about } />
+            <NavItem link="/contact" title={ navigationItems[0].contact } />
             
             <Link href="https://www.instagram.com/edenvir99/">
               <Image

@@ -1,0 +1,20 @@
+{
+  "navigation": [
+    {
+      "locale": "en-US",
+      "home": "Home",
+      "experience": "Experience",
+      "blog": "Blog",
+      "about": "About",
+      "contact": "Contact"
+    },
+    {
+      "locale": "ja-JP",
+      "home": "ホーム",
+      "experience": "経験",
+      "blog": "ブログ",
+      "about": "私について",
+      "contact": "問い合わせ"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "experience": [
+    {
+      "locale": "en-US",
+      "title": "Work",
+      "jobs": [
+        {
+          "title": "Marge (2016-2022) Team Leader",
+          "description": "Work mostly included creating and maintaining a live streaming solution. Here I learned about a variety of media related tools such as WebRTC, GStreamer and FFmpeg. It was also here were I made the mediasoup iOS client library. I was also responsible for managing a Gitlab CI. I also gained experience in building and administrating servers."
+        },
+        {
+          "title": "Matzlika (2022 - Present)",
+          "description": "Here I work as a FullStack developer, Conultant, App Developer. I am currently having a lot of fun learning Android Compose."
+        },
+        {
+          "title": "Freelancer (2022 - Present)",
+          "description": "As well as my current job I also work on various projects (mostly live streaming/media related). Feel free to contact me about anything related to livestreaming/media" 
+        }
+      ]
+    },
+    {
+      "locale": "ja-JP",
+      "title": "仕事",
+      "jobs": [
+        {
+          "title": "バックエンド・メディア・システム管理者 (2016 - 2022) 開発主任",
+          "description": "仕事内容は主に生配信システムの作成とメンテです。ここではいろんなメディアツールについて勉強しました、例えばWebRTC, GStreamer, FFmpegです。ここではmediasoupのiOSライブラリを開発しました。社内のGitlabのCIを管理しました。サーバーのメンテと管理についても勉強しました。"
+        },
+        {
+          "title": "フルスタック・アプリ開発 (2022 - 現在)",
+          "description": "仕事内容は主にフルスタック開発者です。他にもアプリ開発等を担当しています。現在はAndroid Composeの最新技術を勉強しています。"
+        },
+        {
+          "title": "フリーランス",
+          "description": "会社とは別にフリーランスもしています。主に生配信・メディア関連です。"
+        }
+      ]
+    }
+  ]
+}

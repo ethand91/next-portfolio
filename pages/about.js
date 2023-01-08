@@ -1,6 +1,13 @@
 import Image from 'next/image';
+import { useRouter } from 'next/router';
+
+import aboutTranslations from './../public/assets/translations/about.json';
 
 function AboutPage() {
+  const { locale } = useRouter();
+
+  const aboutItems = aboutTranslations.about.filter(item => item.locale === locale);
+
   return (
     <div className="pt-0 sm:pt-16">
       <div className="bg-gray-900 text-white w-12/12 shadow-lg sm:w-9/12 sm:m-auto">
@@ -24,9 +31,9 @@ function AboutPage() {
 
             <div>
               <h1 className="font-bold text-3x1">
-                Ethan Denvir
+                { aboutItems[0].name }
               </h1>
-              <p>FullStack Developer</p>
+              <p>{ aboutItems[0].jobTitle }</p>
             </div>
           </div>
         </div>
@@ -35,23 +42,23 @@ function AboutPage() {
             Hello! 👋
           </p>
           <p>
-            Im Ethan, a FullStack Developer based in Japan.
+            { aboutItems[0].introduction }
           </p>
           <br />
           <p>
-            Ive spent the past 10+ years working across difference areas of backend development, devloping Android/iOS applications to production, monitoring and administrating servers. I also have experience with WebRTC and developing live streaming services and solutions from scratch.
+            { aboutItems[0].about1 }
           </p>
           <br/>
           <p>
-            These days my time is spent researching GStreamer, playing with Android Compose and learning front end design/development. I also enjoy learning blackhat hacking.
+            { aboutItems[0].about2 }
           </p>
           <br/>
           <p>
-            During my free time I usually workout, go running/hiking or working on various side projects and petting all the good dogs. 
+            { aboutItems[0].about3 }
           </p>
           <br/>
           <p>
-            I also teach people how to code via my blog/mentoring
+            { aboutItems[0].about4 }
           </p>
         </div>
       </div>

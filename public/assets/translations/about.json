@@ -1,0 +1,24 @@
+{
+  "about": [
+    {
+      "locale": "en-US",
+      "name": "Ethan Denvir",
+      "jobTitle": "FullStack Developer",
+      "introduction": "I'm Ethan, a FullStack Developer based in Japan.",
+      "about1": "I've spent the past 10+ years working accross different areas of backend development, developing Android and iOS applications, monitoring and administrating servers. I also have experience with WebRTC and developing live streaming services and solutions from scratch.",
+      "about2": "These days my time is spent researching GStreamer, playing with Android Compose and learning front end design/development. I also enjoy learning about cybersecurity.",
+      "about3": "During my free time I usually workout, go running/hiking and working on various side projects.",
+      "about4": "I also enjoy teaching people on how to code via my blog/mentoring"
+    },
+    {
+      "locale": "ja-JP",
+      "name": "デンバー・イーサン",
+      "jobTitle": "フルスタック開発者",
+      "introduction": "始めまして、デンバーと申します。日本に住んでいるフルスタック開発者です。",
+      "about1": "主にバックエンド開発ですが、AndroidやiOSアプリをゼロから公開までを開発したことがあります。サーバーメンテナンスと管理の経験もあります。生配信システムもゼロから公開まで開発した経験もあります。",
+      "about2": "最近はGStreamerの研究をしています。Android Composeという最新技術とフロントエンドデザインや開発を勉強しています。サイバーセキュリティにも興味あります。",
+      "about3": "",
+      "about4": "また個人ブログやオンライン等で開発について共有したりしています。"
+    }
+  ]
+}

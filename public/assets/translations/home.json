@@ -1,0 +1,18 @@
+{
+  "home": [
+    {
+      "locale": "en-US",
+      "title": "Welcome to my Portfolio",
+      "description1": "Hello! My name is Ethan, I am a backend/media developer based in Japan. 😃",
+      "description2": "I am currently learning frontend development to become a fullstack developer.",
+      "description3": "If you would like to know more please visit the about page, I have a lot of experience with live streaming and media solutions so if you have a project in mind feel free to contact me. ☺️ "
+    },
+    {
+      "locale": "ja-JP",
+      "title": "Welcome to my Portfolio",
+      "description1": "はじめまして、イーサンと申します。日本在住のイギリス人です。主な仕事内容はバックエンドやメディア開発です。",
+      "description2": "フルスタック開発者になるために、最近はフロントエンド開発も勉強しています。",
+      "description3": "生配信やメディアのサービス作成と開発に経験があるので、いいアイディアがあれば是非ご相談ください。"
+    }
+  ]
+}

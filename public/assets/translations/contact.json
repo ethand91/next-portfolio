@@ -1,0 +1,22 @@
+{
+  "contact": [
+    {
+      "locale": "en-US",
+      "title": "Send a message",
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send"
+    },
+    {
+      "locale": "ja-JP",
+      "title": "問い合わせ",
+      "fullName": "名前",
+      "email": "メールアドレス",
+      "subject": "サブジェクト",
+      "message": "メッセージ",
+      "send": "送信"
+    }
+  ]
+}

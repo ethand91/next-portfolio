@@ -22,7 +22,7 @@ function AboutPage() {
 
           <div className="bg-gray-900 bg-opacity-50 absolute flex items-end w-full h-full top-0 left-0 p-8">
             <Image
-              src="/gray.jpeg"
+              src="/neko.jpeg"
               alt="profile image"
               width={ 500 }
               height={ 500 }

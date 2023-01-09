@@ -1,7 +1,7 @@
 {
     "theme_color": "#bd10e0",
     "background_color": "#ffffff",
-    "display": "browser",
+    "display": "standalone",
     "scope": "/",
     "start_url": "/",
     "name": "ethan-dev",

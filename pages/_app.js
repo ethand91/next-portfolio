@@ -12,6 +12,12 @@ function MyApp({ Component, pageProps }) {
         <title>Ethan Portfolio</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="description" content="Ethan Denvir development portfolio. Developer blog containing mostly media related tutorials"/>
+        <meta property="og:title" content="Ethan Developer Blog" />
+        <meta property="og:description" content="Ethan Denvir development portfolio. Developer blog containing mostly media related tutorials" />
+        <meta property="og:url" content="https://ethan-dev.com" />
+        <meta property="og:type" content="website" />
+        <link rel="icon" href="/neko.jpeg" />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5474571366428116" crossorigin="anonymous"></script>
       </Head>
 
       <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-GHX6RCSBCX"/>

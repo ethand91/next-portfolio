@@ -34,13 +34,13 @@ export async function getStaticProps() {
 
 function BlogPage({ posts }) {
   const orderedPosts = posts.sort(function(a, b) {
-    return new Date(a.date) - new Date(b.date);
+    return new Date(a.frontmatter.date) - new Date(b.frontmatter.date);
   });
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 p-4 md:p-0 mt-8">
       {
-        orderedPosts.map(({ slug, frontmatter }) => (
+        orderedPosts.reverse().map(({ slug, frontmatter }) => (
           <div
             key={ slug }
             className="border border-gray-200 m-2 rounded-xl shadow-lg overflow-hidden flex flex-col"
